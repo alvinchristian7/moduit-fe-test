@@ -10,7 +10,6 @@ import {
 import { Pagination, PaginationItem, FormControl, InputLabel, Select, MenuItem } from '@mui/material'
 import { ArrowDropDownIcon, ArrowDropUpIcon, ArrowDropLeftIcon, ArrowDropRightIcon, ArrowBackIcon } from '@mui/icons-material';
 import cn from 'classnames'
-import './index.scss'
 
 const pageSizeEnum = [5, 10, 25, 50, 100]
 
@@ -105,7 +104,7 @@ export default function CustomPaginationGrid({ components, className, ...props }
         ...components,
       }}
       disableColumnMenu
-      className={cn('CustomTable', className)}
+      className={cn("border-none", className)}
       {...props}
     />
     // </Box>
