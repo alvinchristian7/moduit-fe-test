@@ -104,7 +104,8 @@ export default function CustomPaginationGrid({ components, className, ...props }
         ...components,
       }}
       disableColumnMenu
-      className={cn("border-none", className)}
+      classes={{ root: "border-none" }}
+      className={cn(className)}
       {...props}
     />
     // </Box>
