@@ -1,0 +1,37 @@
+#leftTab {
+  padding: 40px 0px;
+  flex: 1 1 350px;
+  border-radius: 0 10px 10px 0;
+  .verticalSidebar {
+    justify-content: flex-start;
+    padding-left: 40px;
+    text-transform: initial;
+    font-weight: bold;
+    min-height: 50px;
+  }
+}
+#rightTab {
+  flex: 1 1 100%;
+}
+#logoImg {
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.blueList {
+  &ul {
+    list-style: none;
+  }
+  
+  li::before {content: "•"; color: rgb(56, 125, 255);
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+}
+
+.searchText {
+  min-height: 20px;
+  font-size: 0.85rem;
+  &::placeholder {
+    font-size: 0.85rem;
+  }
+}
