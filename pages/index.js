@@ -159,7 +159,7 @@ export default function Home() {
               </FormControl>
               </form>}
             </div>
-            <Paper elevation={4} classes={{ root: 'h-full rounded-xl p-6' }}>
+            <Paper elevation={4} id="mainPaper" className="h-full p-6">
               <PerfectScrollbar>
                 <CustomTable
                   getRowHeight={() => 'auto'}
