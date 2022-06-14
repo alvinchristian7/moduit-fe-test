@@ -1,5 +1,7 @@
 # Moduit Frontend Web - Coding Test
 
+Live Demo: https://moduit-fe-test.vercel.app/
+
 ## Instructions
 
 On this coding test, you need to create an React JS (**NextJS** preferred) application solution to solve all the questions below.\
